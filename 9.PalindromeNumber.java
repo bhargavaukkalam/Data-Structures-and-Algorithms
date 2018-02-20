@@ -14,7 +14,7 @@ public class PalindromeNumber {
 		}
 		return (x==revnum || x==revnum/10);
 	}
-	
+//+-------------Solution using Strings-------------+
 //          public boolean isPalindrome(int x) {
 //         	String val=String.valueOf(x);
 //         	if(val==null || val.length()==0){
