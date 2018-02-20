@@ -15,6 +15,24 @@ public class PalindromeNumber {
 		return (x==revnum || x==revnum/10);
 	}
 	
+//          public boolean isPalindrome(int x) {
+//         	String val=String.valueOf(x);
+//         	if(val==null || val.length()==0){
+//           	  return true;
+//        		 }
+//         	int start=0;
+//         	int end=val.length()-1;
+        
+//        	 	while(start<end){
+//          	   if(val.charAt(start)!=val.charAt(end)){
+//              	   return false;
+//            	 }
+//             	start++;
+//            	 end--;
+//         }
+//         return true;
+//     }
+	
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);
 		PalindromeNumber obj=new PalindromeNumber();
