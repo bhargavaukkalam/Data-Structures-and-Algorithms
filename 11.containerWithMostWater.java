@@ -36,7 +36,7 @@ public class MaxArea {
 		}
 		
 		int out =objmax.maxAreaWater(inArray);
-		System.out.println("Max area of island is :");
+		System.out.println("Max Area/volume is :");
 		System.out.println(out);
 		
 	}
