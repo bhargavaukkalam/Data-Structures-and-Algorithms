@@ -36,3 +36,15 @@ public class MathPow {
 		
 	}
 }
+
+/*
+
+x^n=x*(x^2)^(n-1)/2; // n=odd
+
+x^n=(x^2)^(n/2); // n=even
+
+Remember this
+
+*/
+
+
