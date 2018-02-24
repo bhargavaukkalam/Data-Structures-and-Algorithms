@@ -29,25 +29,28 @@ public class MergeSortedArray {
 	public static void main(String[] args) {
 		MergeSortedArray obj=new MergeSortedArray();
 		Scanner input=new Scanner(System.in);
-		System.out.println("Enter m and n : ");
-		int m=input.nextInt();
-		int n=input.nextInt();
+//		System.out.println("Enter m and n : ");
+//		int m=input.nextInt();
+//		int n=input.nextInt();
 		
-		System.out.println("Enter Array 1 : ");
-		int[] array1=new int[m];
-		int[] array2=new int[n];
-		for(int i=0;i<m;i++){
-			array1[i]=input.nextInt();
-		}
-		
-		int m1=m-n;
-		System.out.println("Enter Array 2 : ");
-		for(int i=0;i<n;i++){
-			array2[i]=input.nextInt();
-		}
-		obj.merge(array1, array1, m1, n);
-		for(int i=0;i<m1;i++){
+		System.out.println("Enter Arrays : ");
+		int[] array1={1,3,5,7,9};
+		int[] array2={6,10};
+		int n=array2.length;
+		int m=array1.length-n;
+//		int[] array1=new int[m];
+//		int[] array2=new int[n];
+//		for(int i=0;i<m;i++){
+//			array1[i]=input.nextInt();
+//		}
+//		
+//		int m1=m-n;
+//		System.out.println("Enter Array 2 : ");
+//		for(int i=0;i<n;i++){
+//			array2[i]=input.nextInt();
+//		}
+		obj.merge(array1, array1, m, n);
+		for(int i=0;i<array1.length;i++){
 			System.out.println(array1[i]);
-		}
 	}
 }
